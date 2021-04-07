@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Armory.unity
+    guid: 4b3c19beb64bb144398aedcc45a31efa
+  - enabled: 1
+    path: Assets/Scenes/CastleGrounds.unity
+    guid: 6e22d6cc2938e5b448d32f5a2eb6d556
+  - enabled: 1
+    path: Assets/Scenes/CastleWall.unity
+    guid: b99683ca5ccbeb248b11d29310c31e45
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: f7218b787093fd24ab6baef4ef9ff49f
+  - enabled: 1
+    path: Assets/Scenes/Palace.unity
+    guid: 5b364596d8db64548bf8e58f15e45c35
+  - enabled: 1
+    path: Assets/Scenes/PotionsClassroom.unity
+    guid: 93897fd5792e74340bd912f711443dac
+  - enabled: 1
+    path: Assets/Scenes/TownSquare.unity
+    guid: 50d12743df5bd614a87ebedf2669426b
+  - enabled: 1
+    path: Assets/Scenes/WitchsHut.unity
+    guid: 5ad5d1d36d4f15647866e480c2de2771
   m_configObjects: {}
