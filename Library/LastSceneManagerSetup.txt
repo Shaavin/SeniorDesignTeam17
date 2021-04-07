@@ -1,5 +1,11 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Armory.unity
+||||||| merged common ancestors
+- path: Assets/Scenes/TemplateScene.unity
+=======
+- path: Assets/Scenes/TownSquare.unity
+>>>>>>> 80cf99894e984e7b2dfc579d5f3c118b10865cd7
   isLoaded: 1
   isActive: 1
   isSubScene: 0
