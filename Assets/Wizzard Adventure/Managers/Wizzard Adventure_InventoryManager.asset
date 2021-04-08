@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Wizzard Adventure_InventoryManager
   m_EditorClassIdentifier: 
   items:
-  - label: Vines
-    id: 0
-    altLabel: 
+  - label: Sigil_Wall
+    id: 1
+    altLabel: Masonry Sigil
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -25,7 +25,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: 2681fbb1ec026c44c94475cd85debc68, type: 3}
+    tex: {fileID: 2800000, guid: afae24cdf81148243818f0cb57567d40, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -67,9 +67,9 @@ MonoBehaviour:
     useSeparateSlots: 0
     selectSingle: 0
     showInFilter: 1
-  - label: Sigil_Wall
-    id: 1
-    altLabel: Masonry Sigil
+  - label: Sigil_Armory
+    id: 3
+    altLabel: Armory Sigil
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -79,7 +79,331 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: b527ff57748ebfe4684691fafc215ca3, type: 3}
+    tex: {fileID: 2800000, guid: f3190c1b01c695b4499071a967588ef1, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Sigil_Farm
+    id: 4
+    altLabel: Farm Sigil
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 8a51449fb898fd64b9a2aacd5fc160cc, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Sigil_Witch
+    id: 5
+    altLabel: Witch's Sigil
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 9e295eb999ba4524eb50531db6400f6a, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Object_Arrowhead
+    id: 6
+    altLabel: Arrowhead
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 47468a8f7bce9ec45b6a36e766e31459, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Object_Eggs
+    id: 7
+    altLabel: Eggs
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 770f1962de09cd64e8e66fed9ed6a742, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Object_Mushroom
+    id: 8
+    altLabel: Mushroom
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 77ad5d06f9516de4897bfd560a2b6b1a, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Object_Vines
+    id: 0
+    altLabel: Vines
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 2681fbb1ec026c44c94475cd85debc68, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
