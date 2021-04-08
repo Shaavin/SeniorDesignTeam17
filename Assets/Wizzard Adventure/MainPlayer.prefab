@@ -171,7 +171,7 @@ MonoBehaviour:
   motionControl: 0
   talkingAnimation: 0
   separateTalkingLayer: 0
-  speechLabel: 
+  speechLabel: You
   lineID: -1
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
