@@ -212,8 +212,8 @@ MonoBehaviour:
   isLocked: 0
   id: 9
   title: Subtitles
-  manualSize: {x: 50, y: 28}
-  positionType: 2
+  manualSize: {x: 50, y: 15.3}
+  positionType: 6
   manualPosition: {x: 50, y: 79.9}
   positionSmoothing: 0
   alignment: 0
@@ -247,10 +247,10 @@ MonoBehaviour:
   - {fileID: -7889970535157062962}
   - {fileID: -7382716749133832209}
   spacing: 0
-  sizeType: 1
+  sizeType: 0
   autoSizeEveryFrame: 0
   orientation: 1
-  transitionType: 0
+  transitionType: 4
   panDirection: 0
   panMovement: 0
   timeCurve:
@@ -285,13 +285,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 0, y: 0}
+  biggestElementSize: {x: 372.5, y: 64.107}
   rect:
     serializedVersion: 2
-    x: 105
-    y: 237.24002
-    width: 210
-    height: 100.8
+    x: 186.25
+    y: 302.7275
+    width: 372.5
+    height: 64.107
   showInFilter: 1
 --- !u!114 &-8927986358843482826
 MonoBehaviour:
@@ -654,8 +654,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 209.99998
-    height: 25.199999
+    width: 372.5
+    height: 29.33
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -1127,21 +1127,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   title: SubsLineLabel
-  slotSize: {x: 50, y: 4.8}
+  slotSize: {x: 50, y: 8.3}
   sizeType: 1
   positionType: 0
   slotSpacing: 0
   lineID: 87
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
-  fontScaleFactor: 1.5
+  fontScaleFactor: 1.7
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
   isClickable: 0
   orientation: 0
   gridWidth: 3
-  backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
+  backgroundTexture: {fileID: 0}
   singleSlotBackgrounds: 0
   highlightTexture: {fileID: 0}
   hoverSound: {fileID: 0}
@@ -1153,16 +1153,16 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 0
-    y: 25.199999
-    width: 209.99998
-    height: 17.28
+    y: 29.33
+    width: 372.5
+    height: 34.777
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
   label: Hi!
-  anchor: 0
-  textEffects: 0
-  outlineSize: 2
+  anchor: 4
+  textEffects: 1
+  outlineSize: 2.3
   labelType: 2
   variableID: 0
   useCharacterColour: 0
