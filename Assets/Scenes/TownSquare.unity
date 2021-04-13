@@ -6252,7 +6252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4260758916476389679}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.89, y: -3.46, z: -9.97}
+  m_LocalPosition: {x: -9.84, y: -1.42, z: -9.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 150342884}
@@ -6348,7 +6348,7 @@ MonoBehaviour:
   limitHorizontal: 1
   limitVertical: 1
   backgroundConstraint: {fileID: 0}
-  constrainHorizontal: {x: 0.4, y: 27.6}
+  constrainHorizontal: {x: -2.95, y: 24.3}
   constrainVertical: {x: -1.5, y: 100}
   freedom: {x: 0, y: 0}
   dampSpeed: 0.9
